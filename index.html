@@ -8,12 +8,13 @@
   </head>
   <body>
     <header>
+      <link rel="stylesheet" href="style.css" />
       <nav>
         <ul>
-          <li> <a href="#homediv"> home</a></li>
-          <li> <a href="#aboutdiv">about</a> </li>
-          <li> <a href="#careerdiv"> career</a></li>
-          <li> <a href="#contactdiv"> contact</a></li>
+          <li><a href="#homediv"> home</a></li>
+          <li><a href="#aboutdiv">about</a></li>
+          <li><a href="#careerdiv"> career</a></li>
+          <li><a href="#contactdiv"> contact</a></li>
         </ul>
       </nav>
     </header>
@@ -21,82 +22,110 @@
       <div id="homediv">
         <h1>home</h1>
         <p>
-          welcome to my homepage it's my beta version and that's not even a good
-          paragraphe once i see the output of my code i will remember to write something about jhin and how iconic is he but now i will jst go back to code
+          <i class="fas fa-cloud" style="font-size: 24px">
+            welcome to my homepage it's my beta version and that's not even a
+            good paragraphe once i see the output of my code i will remember to
+            write something about jhin and how iconic is he but now i will jst
+            go back to code</i
+          >
         </p>
-        <img src="https://media.tenor.com/S29qlVlvPSkAAAAd/jhin-league-of-legends.gif" alt="jhin for life">
+        <img
+          src="https://media.tenor.com/S29qlVlvPSkAAAAd/jhin-league-of-legends.gif"
+          alt="jhin for life"
+        />
       </div>
       <div id="aboutdiv">
         <table border="1">
-            <tr>
-                <th>name</th>
-                <th>age</th>            
-                <th>profession</th>
-            </tr>
-            <tr>
-                <td>imen ben yahya</td>
-                <td>23</td>
-                <td>jhin player</td>
-            </tr>
+          <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>profession</th>
+          </tr>
+          <tr>
+            <td>imen ben yahya</td>
+            <td>23</td>
+            <td>jhin player</td>
+          </tr>
         </table>
-        <input type="range" id="love quantity" name="love quantity"
-        min="0" max="11">
-        <input type="image" id="image" alt="Login"
-       src="https://preview.redd.it/at6ebbz7ous41.png?auto=webp&s=c0800fff309e98dfd5b1ec7e2c1cfab80cf63042" height="30" width="30" >
+        <input
+          type="range"
+          id="love quantity"
+          name="love quantity"
+          min="0"
+          max="11"
+        />
+        <input
+          type="image"
+          id="image"
+          alt="Login"
+          src="https://preview.redd.it/at6ebbz7ous41.png?auto=webp&s=c0800fff309e98dfd5b1ec7e2c1cfab80cf63042"
+          height="30"
+          width="30"
+        />
 
- <label for="love quantity">my love for jhin</label>
+        <label for="love quantity">my love for jhin</label> <br />
+        <h2>My genius will be understood - eventually</h2>
+        <br />
+        <audio controls>
+          <source
+            id="jhinaudio"
+            src="Jhin_Original_Move_6.ogg"
+            type="audio/ogg"
+          />
+          <source src="Jhin_Original_Move_6.ogg" type="audio/mpeg" />
 
- <audio title="My genius will be understood - eventually" controls >
-   <h1>My genius will be understood - eventually</h1>
-    <source src="Jhin_Original_Move_6.ogg" type="audio/ogg">
-    <source src="Jhin_Original_Move_6.ogg" type="audio/mpeg">
-  
-  
-    <audio controls autoplay>
-        <source src="lolintro.mp3.mp3" type="audio/ogg">
-      </audio>
-     </audio>
-     <iframe title="jhin's script is just abnormal shoutout to the writer" width="853" height="480" src="https://www.youtube.com/embed/76xCQD9WEX8" title="The Virtuoso - Jhin quotes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>   </iframe>
+          <audio controls autoplay>
+            <source src="lolintro.mp3.mp3" type="audio/ogg" />
+          </audio>
+        </audio>
+        <iframe
+          id="frameaudio"
+          title="jhin's script is just abnormal shoutout to the writer"
+          width="853"
+          height="480"
+          src="https://www.youtube.com/embed/76xCQD9WEX8"
+          title="The Virtuoso - Jhin quotes"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
       </div>
-      <div id="careerdiv"> 
+      <div id="careerdiv">
         <h1>skills</h1>
         <ul>
           <li>programming</li>
-          <li>sleeping 24 hours per day </li>
-          <li>carrying my whole team </li>
+          <li>sleeping 24 hours per day</li>
+          <li>carrying my whole team</li>
         </ul>
         <h2>diploma</h2>
         <b>graduated from faculty of sciences of sfax in computer networks</b>
-        <h3> hobbies </h3>
+        <h3>hobbies</h3>
         <ul>
           <li>video games</li>
           <li>watching anime</li>
           <li>camping</li>
         </ul>
-
       </div>
     </main>
-    <footer id="contactdiv"> <b> contact me through</b>
+    <footer id="contactdiv">
+      <b> contact me through</b>
       <form action="">
         <h1>email</h1>
-        <input type="text">
+        <input type="text" />
         <h2>phone</h2>
-        <input type="text">
-        <h3>a lovely tour in space </h3>
-        <p><a href="https://eyes.nasa.gov/apps/asteroids/#/asteroids/stars/sun">visit space from here</a></p>
-
+        <input type="text" />
+        <h3>a lovely tour in space</h3>
+       <div id="divrocket">
+          <a href="https://eyes.nasa.gov/apps/asteroids/#/asteroids/stars/sun"
+            >visit space from here</a
+          >
+          <img id="rocket"
+            src="data:image/jpeg;base64,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"
+             alt=""
+          />
+        </div>
       </form>
     </footer>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

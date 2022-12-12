@@ -1,7 +1,46 @@
-ol li {
-    background: #ffe5e5;
-    color: darkred;
-    padding: 5px;
-    margin-left: 35px;
+body {
+  background-color: rgb(171, 141, 167);
+  color: rgb(171, 141, 167);
+}
+
+h1 {
+  background-color: black;
+  color: hsl(302, 15%, 61%);
+}
+
+div {
+  background-color: rgb(171, 141, 167);
+  color: white;
+}
+  ul {
+    list-style: square inside url("sqpurple.gif");
   }
-  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+
+  #frameaudio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #jhinaudio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+ #rocket{
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  margin: 0px 10px 10px 5px;
+ }
+ #divrocket {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 10px ;
+
+
+ }
